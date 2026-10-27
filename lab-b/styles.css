@@ -1,3 +1,59 @@
 body {
-  background-color: #f3fff3;
+  background-color: #597859;
+  font-family: sans-serif;
+}
+.todoapp {
+  max-width: 600px;
+  margin: 0 auto;
+  background: #dbd5d5;
+  border: 2px solid #000;
+  padding: 15px;
+}
+.searchContainer {
+  margin-bottom: 20px;
+}
+.searchContainer input {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #000;
+}
+#tasksContainer {
+  margin-bottom: 20px;
+}
+.taskItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px dashed #000;
+  padding: 6px 0;
+}
+.taskContent {
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 1;
+  padding-right: 10px;
+}
+.taskDate {
+  font-weight: bold;
+  margin-left: 10px;
+}
+.highlight {
+  background-color: yellow;
+}
+#newTaskForm {
+  display: flex;
+  gap: 5px;
+}
+#newTaskForm input[type="text"] {
+  flex: 1;
+  padding: 5px;
+  border: 1px solid #000;
+}
+#newTaskForm input[type="date"] {
+  padding: 5px;
+  border: 1px solid #000;
+}
+#newTaskForm button {
+  padding: 5px 15px;
+  border: 1px solid #000;
 }
