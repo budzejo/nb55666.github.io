@@ -37,3 +37,10 @@ body {
   display: block;
   cursor: grab;
 }
+#rasterContainer canvas {
+  display: block;
+  width: 900px;
+  height: 600px;
+  border: 2px solid #000;
+  margin-top: 20px;
+}

@@ -66,6 +66,10 @@ document.puzzleApp={
         alert("Błąd pobierania mapy");
         return;
       }
+      let rasterBox=document.getElementById("rasterContainer");
+      rasterBox.innerHTML="";
+      rasterBox.appendChild(canvas);
+      rasterBox.appendChild(canvas);
       let container=document.getElementById("piecesContainer");
       container.innerHTML="";
       this.setupBoard();
